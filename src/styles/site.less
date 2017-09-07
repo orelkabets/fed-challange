@@ -1,0 +1,59 @@
+@import "colors";
+@import "buttons";
+@import "inputs";
+
+body {
+  margin: 0;
+  background-color: #142e48;
+
+}
+.app-background {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center-component {
+  width: 300px;
+  align-self: center;
+}
+
+.default-text {
+  color: @mainButton;
+  padding: 10px;
+}
+
+.draggable-padding {
+  padding: 10px;
+  align-self: center;
+}
+
+.error-text {
+  color: @error;
+  font-weight: 400;
+}
+
+body {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.draggable {
+  cursor: all-scroll;
+  align-self: center;
+}
+
+img {
+  cursor: all-scroll;
+  box-shadow:
+      0 0 0 10px hsl(0,0%,80%),
+      0 0 0 15px hsl(0,0%,90%);
+}

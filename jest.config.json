@@ -1,0 +1,17 @@
+{
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js"
+    ],
+    "moduleNameMapper": {
+        "HomeView": "<rootDir>/src/app/views/HomeView.tsx",
+        "LoginComponent": "<rootDir>/src/app/components/LoginComponent.tsx",
+        "DashboardComponent": "<rootDir>/src/app/components/DashboardComponent.tsx"
+    },
+    "transform": {
+        "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$",
+    "setupFiles":["<rootDir>/src/mock/browserMocks.js"]
+}

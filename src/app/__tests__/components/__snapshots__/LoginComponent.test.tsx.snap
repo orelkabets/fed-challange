@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginComponent renders without crashing 1`] = `
+<div
+  className="sc-bdVaJa caNysd"
+>
+  <header
+    className="sc-bdVaJa boYivU"
+  >
+    <h4>
+      Hello Guest, please login
+    </h4>
+  </header>
+  <div
+    className="center-component sc-bdVaJa hgkmdP"
+  >
+    <input
+      className="default-input"
+      id="user-name"
+      onChange={[Function]}
+      placeholder="userName"
+      type="text"
+    />
+    <input
+      className="default-input"
+      id="password"
+      onChange={[Function]}
+      placeholder="password"
+      type="password"
+    />
+    <button
+      className="default-button"
+      id="submit"
+      onClick={[Function]}
+    >
+      Let me in.
+    </button>
+  </div>
+</div>
+`;
