@@ -8,8 +8,7 @@ after successful login , React renders the Dashboard component which includes: u
 and some draggable items, such as the user name and the user image.
 
 the Dashboard component uses [react-draggable](https://github.com/mzabriskie/react-draggable) package.
-the draggable element positions also saved inside the localStorage and when the user logged in again they'll apear at thier last
-position.
+the draggable element positions also being saved inside the localStorage and when the user logged in again they'll apear at thier last dragged position.
 
 
 # Installation:
