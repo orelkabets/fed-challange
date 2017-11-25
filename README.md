@@ -1,4 +1,4 @@
-# fed-challange
+# react-typescript-starter
 ReactJs+Typescript+Gulp sample project.
 
 This project simulate simple login screen which saves the logged-in user details inside the localStorage.
